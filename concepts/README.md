@@ -25,16 +25,16 @@ Pydantic provides three important features:
 
 1. **Data Validation**
 
-Before saving data to the database, Pydantic checks if it matches the expected structure.  
-For example, if a user submits an email address, Pydantic ensures it is in the correct format.
+   - Before saving data to the database, Pydantic checks if it matches the expected structure.
+   - For example, if a user submits an email address, Pydantic ensures it is in the correct format.
 
 2. **Serialization**
 
-Pydantic converts Python objects (like database models) into JSON so they can be sent over an API.
+   - Pydantic converts Python objects (like database models) into JSON so they can be sent over an API.
 
 3. **Typing and Data Structure**
 
-Pydantic allows us to **define clear data models** and ensures that API responses have the correct data types.
+   - Pydantic allows us to **define clear data models** and ensures that API responses have the correct data types.
 
 ## Up Next: serializing our SQLAlchemy models
 

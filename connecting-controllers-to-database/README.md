@@ -94,6 +94,7 @@ def create_tea(tea: TeaSchema, db: Session = Depends(get_db)):
 
 - `POST /teas` creates a new tea entry.
 - The `tea.dict()` converts the Pydantic model into a format that can be used to create a SQLAlchemy model.
+- The `**` syntax unpacks the dictionary returned by `tea.dict()` into keyword arguments when passing it to the TeaModel constructor
 
 ### 4. Update/PUT Route
 
@@ -133,7 +134,7 @@ def delete_tea(tea_id: int, db: Session = Depends(get_db)):
 
     db.delete(db_tea)  # Remove from database
     db.commit()  # Save changes
-    return {"message": f"Tea {tea_id} deleted successfully"}
+    return {"message": f"Tea with ID {tea_id} has been deleted"}
 ```
 
 - `DELETE /teas/{tea_id}` removes a tea from the database.
