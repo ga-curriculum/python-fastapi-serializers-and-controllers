@@ -16,16 +16,23 @@ concepts = new Template.Microlesson {
   videoUrl = ""
 }
 
-microlesson01 = new Template.Microlesson {
-  friendlyName = "Microlesson 01"
-  dirName = "microlesson-01"
+creatingPydanticSerializersForData = new Template.Microlesson {
+  friendlyName = "Creating Pydantic Serializers for Data"
+  dirName = "creating-pydantic-serializers-for-data"
   type = "Content"
   videoUrl = ""
 }
 
-microlesson02 = new Template.Microlesson {
-  friendlyName = "Microlesson 02"
-  dirName = "microlesson-02"
+connectingControllersToDatabase = new Template.Microlesson {
+  friendlyName = "Connecting Controllers to Database"
+  dirName = "connecting-controllers-to-database"
+  type = "Content"
+  videoUrl = ""
+}
+
+testingApiEndpoints = new Template.Microlesson {
+  friendlyName = "Testing API Endpoints"
+  dirName = "testing-api-endpoints"
   type = "Content"
   videoUrl = ""
 }
