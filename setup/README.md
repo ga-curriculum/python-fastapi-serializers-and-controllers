@@ -5,7 +5,7 @@
 
 ## Setup
 
-In this lesson, we’ll start by working with a pre-existing application that utilizes a PostgreSQL database instance, SQLAlchemy model and a database seeded with initial data.
+In this lesson, we’ll start by working with a pre-existing application that utilizes a PostgreSQL database instance, SQLAlchemy models and a database seeded with initial data.
 
 > If you have a complete, working application from the `Python FastAPI SQLAlchemy Relationships` Lesson, you may choose to use that codebase as starter code instead of the repo provided below.
 
