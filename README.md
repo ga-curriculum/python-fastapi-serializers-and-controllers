@@ -32,8 +32,6 @@ This module focuses on understanding and implementing data serialization in a Fa
 
 ### Starter code
 
-If you have a complete, working application from the `Python FastAPI SQLAlchemy Relationships` Lesson, you may choose to use that codebase as starter code instead of the repo provided below.
-
 🟢 [Starter code](https://git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-sqlalchemy-relationships-solution)
 
 ### Solution code
