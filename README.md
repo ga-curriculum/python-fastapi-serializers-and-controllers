@@ -32,11 +32,11 @@ This module focuses on understanding and implementing data serialization in a Fa
 
 ### Starter code
 
-🟢 [Starter code](https://git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-sqlalchemy-relationships-solution)
+🟢 [Starter code](https://github.com/ga-curriculum/python-fastapi-sqlalchemy-relationships-solution)
 
 ### Solution code
 
-🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-serializers-and-controllers-solution)
+🏁 [Solution code](https://github.com/ga-curriculum/python-fastapi-serializers-and-controllers-solution)
 
 ### Course landing pages
 
